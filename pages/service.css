@@ -1,0 +1,707 @@
+.navbar {
+    display: flex;
+    background-color: whitesmoke;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.navbar span {
+    display: flex;
+    align-items: center;
+    color: #444;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-left: 120px;
+}
+
+.navbar span img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 70px;
+    display: flex;
+    gap: 0px;
+}
+
+.navbar ul li a {
+    color: #444;
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 70px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+.heading {
+    color: #9c9ca6;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 3em;
+    margin-top: 0px;
+    letter-spacing: 0.01em;
+}
+
+.manager-sec {
+    display: flex;
+    justify-content: center;
+}
+
+.ch-cards {
+    font-family: Arial, sans-serif;
+    background-color: #121a2f;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+.image {
+    background-image: url(https://creditcard.axiomthemes.com/wp-content/uploads/2017/06/img_serv.png);
+    width: 44%;
+    left: 0;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.contact-section {
+    text-align: left;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 56px;
+    color: #2E3A59;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    line-height: 1.3em;
+}
+
+.contact-section p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #7F8FA4;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.details-button {
+    background-color: #00AEEF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.choose-card {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-selection {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    position: relative;
+    flex: 1;
+    /* Allows the cards to grow/shrink equally */
+    max-width: 300px;
+    /* Keeps the card width consistent */
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .details {
+    margin-top: 10px;
+}
+
+.card .details h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.card .details p {
+    margin: 5px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e6b800;
+}
+
+.card .details a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.card .details a:hover {
+    text-decoration: underline;
+}
+
+.featured-offers {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.featured-offers h2 {
+    font-size: 2.5rem;
+    color: #2c2f5e;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 3em;
+}
+
+.offer-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cardss {
+    background-color: #f7f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    text-align: center;
+    border-color: #f7f8f8;
+    cursor: pointer;
+}
+
+.cardss:hover {
+    border: 8px solid gray;
+    transition: border-color 0.5s;
+}
+
+.cardss h3 {
+    color: #2c2f5e;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.500em;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.2043em;
+    text-transform: none;
+    letter-spacing: -0.3px;
+}
+
+.offer {
+    color: #f8ba35;
+    margin-bottom: 20px;
+    font-family: "Hind", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.483em;
+}
+
+.cardss img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #9c9c9c;
+    margin-bottom: 20px;
+    font-family: "Hind", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.483em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.apply-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00b2e3;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.apply-btn:hover {
+    background-color: #008bb5;
+}
+
+
+.footer {
+    background: whitesmoke;
+    color: #444;
+    padding: 40px 0;
+    font-family: Helvetica;
+    border-top: 1px solid #bdbdbd;
+}
+
+.footer .footer_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer .footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+.footer .footer-section.quick-links {
+    margin-right: -80px;
+}
+
+.footer .footer-section.head-office {
+    margin-left: 10px;
+}
+
+.footer .footer-section.latest-posts {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .logo-text {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer .footer-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer .footer-section ul li a {
+    color: #444;
+    text-decoration: none;
+}
+
+.footer .footer-section ul li a:hover {
+    color: rgb(97, 76, 167);
+}
+
+.footer .footer-section ul li a span {
+    display: block;
+    font-size: 0.9rem;
+    color: black;
+
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.footer-section span {
+    display: flex;
+    align-items: center;
+    color: #444;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.footer-section p {
+    margin-top: 10px;
+}
+
+.footer-section span img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+@media(max-width:1272px) {
+    .navbar {
+        width: 105%;
+    }
+
+    .ch-cards {
+        width: 105%;
+    }
+
+    .featured-offers {
+        width: 100%;
+    }
+
+    .footer {
+        width: 105%;
+    }
+}
+
+
+@media(max-width:1250px) {
+    .navbar {
+        width: 115%;
+    }
+
+    .ch-cards {
+        width: 115%;
+    }
+
+    .featured-offers {
+        width: 115%;
+    }
+
+    .footer {
+        width: 115%;
+    }
+}
+
+@media(max-width:1115px) {
+    .navbar {
+        width: 110%;
+    }
+
+    .ch-cards {
+        width: 110%;
+    }
+
+    .featured-offers {
+        width: 107%;
+    }
+
+    .footer {
+        width: 110%;
+    }
+}
+
+@media(max-width:1105px) {
+    .navbar {
+        width: 120%;
+    }
+
+    .ch-cards {
+        width: 120%;
+    }
+
+    .featured-offers {
+        width: 117%;
+    }
+
+    .footer {
+        width: 120%;
+    }
+
+}
+
+@media(max-width:990px) {
+    .navbar {
+        width: 135%;
+    }
+
+    .ch-cards {
+        width: 135%;
+    }
+
+    .featured-offers {
+        width: 127%;
+    }
+
+    .footer {
+        width: 135%;
+    }
+
+}
+
+@media(max-width:950px) {
+    .navbar {
+        width: 135%;
+    }
+
+    .ch-cards {
+        width: 135%;
+    }
+
+    .featured-offers {
+        width: 127%;
+    }
+
+    .footer {
+        width: 135%;
+    }
+
+}
+
+@media(max-width:900px) {
+    .navbar {
+        width: 145%;
+    }
+
+    .ch-cards {
+        width: 145%;
+    }
+
+    .featured-offers {
+        width: 137%;
+    }
+
+    .footer {
+        width: 145%;
+    }
+
+}
+
+@media(max-width:830px) {
+    .navbar {
+        width: 155%;
+    }
+
+    .ch-cards {
+        width: 155%;
+    }
+
+    .featured-offers {
+        width: 147%;
+    }
+
+    .footer {
+        width: 155%;
+    }
+
+}
+
+@media(max-width:756px) {
+    .navbar {
+        width: 165%;
+    }
+
+    .ch-cards {
+        width: 165%;
+    }
+
+    .featured-offers {
+        width: 157%;
+    }
+
+    .footer {
+        width: 165%;
+    }
+
+}
+
+@media(max-width:710px) {
+    .navbar {
+        width: 175%;
+    }
+
+    .ch-cards {
+        width: 175%;
+    }
+
+    .featured-offers {
+        width: 167%;
+    }
+
+    .footer {
+        width: 175%;
+    }
+
+}
+
+@media(max-width:675px) {
+    .navbar {
+        width: 185%;
+    }
+
+    .ch-cards {
+        width: 185%;
+    }
+
+    .featured-offers {
+        width: 177%;
+    }
+
+    .footer {
+        width: 185%;
+    }
+
+}
+
+@media(max-width:630px) {
+    .navbar {
+        width: 195%;
+    }
+
+    .ch-cards {
+        width: 195%;
+    }
+
+    .featured-offers {
+        width: 187%;
+    }
+
+    .footer {
+        width: 195%;
+    }
+
+}
+
+@media(max-width:600px) {
+    .navbar {
+        width: 205%;
+    }
+
+    .ch-cards {
+        width: 205%;
+    }
+
+    .featured-offers {
+        width: 197%;
+    }
+
+    .footer {
+        width: 205%;
+    }
+
+}
+
+@media(max-width:570px) {
+    .navbar {
+        width: 215%;
+    }
+
+    .ch-cards {
+        width: 215%;
+    }
+
+    .featured-offers {
+        width: 207%;
+    }
+
+    .footer {
+        width: 215%;
+    }
+
+}
+
+@media(max-width:550px) {
+    .navbar {
+        width: 215%;
+    }
+
+    .ch-cards {
+        width: 215%;
+    }
+
+    .featured-offers {
+        width: 207%;
+    }
+
+    .footer {
+        width: 215%;
+    }
+
+}
+
+@media(max-width:530px) {
+    .navbar {
+        width: 230%;
+    }
+
+    .ch-cards {
+        width: 230%;
+    }
+
+    .featured-offers {
+        width: 220%;
+    }
+
+    .footer {
+        width: 230%;
+    }
+
+}
